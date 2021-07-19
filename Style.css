@@ -1,0 +1,26 @@
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from { box-shadow: 5px 5px 50px red;}
+    to {box-shadow: 5px 5px 50px greenyellow;}
+}
+
+.btn-danger:hover {
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 5px red;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+body
+{
+    background-image: cover;
+}
